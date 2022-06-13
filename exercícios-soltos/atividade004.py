@@ -1,0 +1,8 @@
+print('Olá, progamador! Eu sou o compiuter. Digite algo abaixo:')
+algo = input('- ')
+print(' A classe primitiva de "{}" é {}'.format(algo, (type(algo))))
+print('*Informaçoes adicionais:')
+print(' - é numérico? {}'.format(algo.isnumeric()))
+print(' - é uma palavra? {}'.format(algo.isalpha()))
+print(' - há numeros envolvidos? {}'.format(algo.isalnum()))
+print(' - está tudo em maiúsculo? {}'.format(algo.isupper()))
